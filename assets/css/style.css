@@ -1,20 +1,20 @@
-/* BlousePoiseJet Couture Fashion Atelier - Core Stylesheet */
+/* ScalarReadIvy Academic Institute - Core Stylesheet */
 :root {
-  --color-bg: #FBF9F7;
+  --color-bg: #FBF9F5;
   --color-surface: #FFFFFF;
-  --color-primary: #181716;
-  --color-secondary: #8C7355;
-  --color-accent: #A3485E;
-  --color-accent-hover: #86364A;
-  --color-text: #2B2826;
-  --color-text-muted: #6B6560;
-  --color-border: #EAE4DC;
+  --color-primary: #1A2421;
+  --color-secondary: #2D5A46;
+  --color-accent: #B85D19;
+  --color-accent-hover: #964710;
+  --color-text: #2B332F;
+  --color-text-muted: #616B66;
+  --color-border: #E3DED4;
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --header-height: 80px;
-  --shadow-sm: 0 2px 8px rgba(24, 23, 22, 0.04);
-  --shadow-md: 0 8px 24px rgba(24, 23, 22, 0.07);
-  --shadow-lg: 0 16px 40px rgba(24, 23, 22, 0.11);
+  --shadow-sm: 0 2px 8px rgba(26, 36, 33, 0.04);
+  --shadow-md: 0 8px 24px rgba(26, 36, 33, 0.07);
+  --shadow-lg: 0 16px 40px rgba(26, 36, 33, 0.11);
   --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -65,7 +65,7 @@ img {
   top: 0;
   z-index: 1000;
   height: var(--header-height);
-  background: rgba(251, 249, 247, 0.94);
+  background: rgba(251, 249, 245, 0.94);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border);
@@ -177,24 +177,24 @@ img {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   color: #FFFFFF;
 }
 
 .btn-primary:hover {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(163, 72, 94, 0.25);
+  box-shadow: 0 4px 14px rgba(45, 90, 70, 0.25);
 }
 
 .btn-secondary {
   background-color: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   color: #FFFFFF;
 }
 
@@ -299,7 +299,7 @@ img {
   position: relative;
   padding: 100px 0 120px;
   overflow: hidden;
-  background: linear-gradient(135deg, rgba(251, 249, 247, 0.96) 0%, rgba(244, 239, 232, 0.92) 100%);
+  background: linear-gradient(135deg, rgba(251, 249, 245, 0.96) 0%, rgba(242, 238, 230, 0.92) 100%);
 }
 
 .hero-grid {
@@ -318,17 +318,17 @@ img {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--color-secondary);
-  background-color: rgba(140, 115, 85, 0.1);
+  background-color: rgba(45, 90, 70, 0.1);
   padding: 6px 14px;
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
 .hero-title {
-  font-size: 52px;
+  font-size: 50px;
   letter-spacing: -1px;
   margin-bottom: 24px;
-  line-height: 1.15;
+  line-height: 1.16;
 }
 
 .hero-lead {
@@ -388,7 +388,7 @@ img {
   border-radius: 6px;
   box-shadow: var(--shadow-md);
   border: 1px solid var(--color-border);
-  max-width: 260px;
+  max-width: 280px;
 }
 
 .hero-badge-card h5 {
@@ -407,7 +407,7 @@ img {
 }
 
 .section-alt {
-  background-color: #F4EFEA;
+  background-color: #F3EFE7;
 }
 
 .section-header {
@@ -449,7 +449,7 @@ img {
   gap: 24px;
 }
 
-.couture-card {
+.academic-card {
   background: var(--color-surface);
   border-radius: 6px;
   overflow: hidden;
@@ -459,13 +459,13 @@ img {
   flex-direction: column;
 }
 
-.couture-card:hover {
+.academic-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-md);
 }
 
 .card-thumb {
-  height: 280px;
+  height: 240px;
   overflow: hidden;
   position: relative;
 }
@@ -477,7 +477,7 @@ img {
   transition: transform 0.6s ease;
 }
 
-.couture-card:hover .card-thumb img {
+.academic-card:hover .card-thumb img {
   transform: scale(1.05);
 }
 
@@ -485,7 +485,7 @@ img {
   position: absolute;
   top: 16px;
   right: 16px;
-  background: rgba(24, 23, 22, 0.85);
+  background: rgba(26, 36, 33, 0.85);
   backdrop-filter: blur(4px);
   color: #FFFFFF;
   font-size: 11px;
@@ -532,7 +532,7 @@ img {
 }
 
 .card-price {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--color-primary);
   font-family: var(--font-serif);
@@ -619,7 +619,7 @@ img {
 
 .result-value {
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--color-primary);
 }
@@ -701,7 +701,7 @@ img {
 }
 
 .quote-stars {
-  color: var(--color-secondary);
+  color: var(--color-accent);
   font-size: 14px;
   margin-bottom: 16px;
 }
@@ -789,9 +789,9 @@ img {
 /* Footer */
 .site-footer {
   background-color: var(--color-primary);
-  color: #E2DDD5;
+  color: #DDE5E0;
   padding: 80px 0 32px;
-  border-top: 1px solid #2B2826;
+  border-top: 1px solid #283732;
 }
 
 .footer-grid {
@@ -809,7 +809,7 @@ img {
 
 .footer-brand p {
   font-size: 14px;
-  color: #A9A29A;
+  color: #9EADA5;
   max-width: 320px;
   margin-bottom: 24px;
 }
@@ -833,11 +833,11 @@ img {
 
 .footer-links a {
   font-size: 14px;
-  color: #A9A29A;
+  color: #9EADA5;
 }
 
 .footer-links a:hover {
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
 
 .contact-item {
@@ -846,17 +846,17 @@ img {
   gap: 10px;
   margin-bottom: 14px;
   font-size: 14px;
-  color: #A9A29A;
+  color: #9EADA5;
 }
 
 .footer-bottom {
   padding-top: 32px;
-  border-top: 1px solid #2B2826;
+  border-top: 1px solid #283732;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  color: #8C847B;
+  color: #7D8F86;
 }
 
 .footer-legal-links {
@@ -871,7 +871,7 @@ img {
 /* Blog Article Layout */
 .article-header {
   padding: 64px 0 40px;
-  background: #F4EFEA;
+  background: #F3EFE7;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -907,7 +907,7 @@ img {
   margin: 48px auto 96px;
   font-size: 17px;
   line-height: 1.8;
-  color: #332F2B;
+  color: #2D3631;
 }
 
 .article-body h2 {
@@ -953,13 +953,13 @@ img {
 }
 
 .data-table th {
-  background-color: #F4EFEA;
+  background-color: #F3EFE7;
   font-weight: 700;
   color: var(--color-primary);
 }
 
 .author-bio-card {
-  background: #F4EFEA;
+  background: #F3EFE7;
   border-radius: 6px;
   padding: 32px;
   margin: 56px 0;
@@ -980,7 +980,7 @@ img {
 /* Policy Page Layout */
 .policy-header {
   padding: 64px 0 40px;
-  background: #F4EFEA;
+  background: #F3EFE7;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -1002,7 +1002,7 @@ img {
 .policy-section p {
   font-size: 15px;
   line-height: 1.75;
-  color: #3E3A36;
+  color: #38423D;
   margin-bottom: 16px;
 }
 

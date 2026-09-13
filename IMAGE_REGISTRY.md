@@ -1,26 +1,31 @@
-# IMAGE REGISTRY • BLOUSEPOISEJET
+# Image Registry & Technical Specifications: ScalarReadIvy
 
-All 20 authentic high-resolution images stored locally in `assets/images/` (>20KB each):
+**Domain:** `scalarreadivy`
+**Category / Niche:** Education / Advanced Academic Reading & Pedagogical Hermeneutics
+**Institute Location:** 181 Mercer Street, New York, NY 10012, United States
+**Telephone:** +1-888-777-5845
 
-| # | Local File Name | Resolution / Size | Subject & Context Description |
-|---|---|---|---|
-| 1 | `hero_haute_couture_silk_blouse.jpg` | 210.7 KB | Bespoke silk crepe de chine blouse tailored on female form in Manhattan atelier |
-| 2 | `origami_geometric_pleated_blouse.jpg` | 95.5 KB | Architectural origami pleated silk organza blouse with structured geometric shoulder lines |
-| 3 | `micro_accordion_pleat_chemisier_blouse.jpg` | 82.2 KB | Delicate micro-accordion pleated silk chemisier blouse with concealed mother-of-pearl placket |
-| 4 | `cartridge_pleated_silk_blouse_tunic.jpg` | 74.9 KB | Handcrafted cartridge pleat silk blouse featuring fluid voluminous drape |
-| 5 | `bias_cut_silk_georgette_drape.jpg` | 208.4 KB | Pure mulberry silk georgette draped along true 45-degree bias grain on tailoring mannequin |
-| 6 | `master_blouse_tailoring_drape_fitting.jpg` | 237.6 KB | Master tailor refining bespoke blouse silhouette during client fitting session at 181 Mercer Street |
-| 7 | `french_seaming_silk_chiffon_craft.jpg` | 225.3 KB | Macro detail of delicate French seams encasing raw edges within sheer silk chiffon blouse |
-| 8 | `pure_mulberry_silk_crepe_folds.jpg` | 328.2 KB | Luminous folds of 19 momme heavy silk crepe de chine in vintage alabaster hue |
-| 9 | `sculptural_blouse_atelier_showroom.jpg` | 97.0 KB | Sculptural pleated couture blouse displayed in the quiet sunlit Mercer Street salon |
-| 10 | `bespoke_blouse_pattern_drafting_bench.jpg` | 124.9 KB | Artisan pattern drafter drafting curved blouse armholes and dart manipulation on craft bench |
-| 11 | `artisan_tailoring_workbench_tools.jpg` | 299.8 KB | Traditional tailoring scissors, tailor chalk, bone folders, and silk thread spools on oak bench |
-| 12 | `couture_hand_embroidery_blouse_collar.jpg` | 70.9 KB | Delicate hand-sewn bullion stitch embroidery along stand collar of bespoke evening blouse |
-| 13 | `silk_organza_translucency_study.jpg` | 231.4 KB | Translucent light transmission through layered crisp silk organza blouse collar |
-| 14 | `handcrafted_chiffon_flounce_blouse.jpg` | 122.5 KB | Hand-pleated silk chiffon flounce cascading along neckline of tailored evening blouse |
-| 15 | `curated_capsule_blouse_collection_rack.jpg` | 71.6 KB | Curated capsule collection of tailored silk and linen blouses on minimalist brass rack |
-| 16 | `mercer_street_couture_fashion_salon.jpg` | 600.4 KB | Historic brick and cast-iron fitting salon of BlousePoiseJet at 181 Mercer Street Manhattan |
-| 17 | `flax_linen_silk_blend_textile_skeins.jpg` | 149.8 KB | Artisanal organic flax linen and unspun mulberry silk fibers used for custom textile weaves |
-| 18 | `couture_runway_blouse_silhouette_1.jpg` | 71.4 KB | Editorial runway model showcasing fluid bias-cut silk blouse with elongated cuffs |
-| 19 | `couture_runway_blouse_silhouette_2.jpg` | 91.1 KB | Back detail of tailored blouse displaying inverted box pleats and mother-of-pearl buttons |
-| 20 | `couture_runway_blouse_silhouette_4.jpg` | 81.9 KB | Sculptural high-neck pleated silk blouse moving gracefully with natural anatomical stride |
+All 20 authentic high-resolution images stored locally in `assets/images/` (>20KB each), 100% strictly curated for education, classroom pedagogy, academic libraries, university lectures, and student scholarship:
+
+| # | Local File Name | File Size | Subject Matter & Curatorial Pedagogical Context |
+| :--- | :--- | :--- | :--- |
+| 1 | `hero_academic_library_hall.jpg` | 122.8 KB | Grand academic university library hall with infinite book stacks and quiet reading aisles |
+| 2 | `university_lecture_hall_amphitheater.jpg` | 110.6 KB | Distinguished faculty professor delivering lecture in tiered academic amphitheater |
+| 3 | `collaborative_students_study_group.jpg` | 106.9 KB | Diverse university student cohort collaborating around study table with laptops and books |
+| 4 | `collegiate_campus_architecture.jpg` | 162.4 KB | Historic collegiate university building with clock tower and central academic lawn |
+| 5 | `classroom_teacher_instruction.jpg` | 91.7 KB | Educator teaching student cohort in structured academic classroom |
+| 6 | `student_writing_analytical_notes.jpg` | 78.5 KB | Open textbook, classic fountain pen, and study notebook with detailed handwritten notes |
+| 7 | `academic_classroom_study_desks.jpg` | 95.7 KB | Traditional academic classroom desks arranged neatly facing chalkboard |
+| 8 | `stack_of_academic_textbooks.jpg` | 60.1 KB | Stack of colorful academic textbooks and scholarly learning reference materials |
+| 9 | `teacher_chalkboard_student_discussion.jpg` | 145.5 KB | Teacher at blackboard with enthusiastic student raising hand in classroom discussion |
+| 10 | `library_reading_group_study.jpg` | 118.2 KB | Collegiate scholars reviewing research papers together in front of library book stacks |
+| 11 | `student_backpack_library_stacks.jpg` | 130.2 KB | University student with backpack walking through quiet academic library book rows |
+| 12 | `student_pencil_exam_study.jpg` | 71.7 KB | Focused student writing notes with mechanical pencil during study session |
+| 13 | `collegiate_scholar_academic_mentorship.jpg` | 187.9 KB | Collegiate scholar smiling with laptop in academic facility building |
+| 14 | `focused_student_laptop_learning.jpg` | 71.4 KB | Student wearing headphones engaged in deep computer-aided study on laptop |
+| 15 | `flatlay_study_desk_notebook_laptop.jpg` | 93.9 KB | Flatlay of student study workspace with notebook, pen, laptop, glasses, and textbooks |
+| 16 | `campus_students_cohort_discussion.jpg` | 181.1 KB | University student cohort sitting on campus steps engaged in academic dialogue |
+| 17 | `tiered_amphitheater_lecture_theatre.jpg` | 152.4 KB | Tiered wooden seating rows in traditional collegiate lecture hall amphitheater |
+| 18 | `elementary_literacy_books_and_apple.jpg` | 55.8 KB | Red apple resting on stack of textbooks with colored pencils and ABC educational blocks |
+| 19 | `elementary_classroom_reading_circle.jpg` | 108.6 KB | Young students in classroom with glasses intently reading workbooks and studying |
+| 20 | `commencement_graduation_celebration.jpg` | 133.0 KB | University graduates in caps and gowns celebrating commencement on campus |

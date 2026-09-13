@@ -1,19 +1,19 @@
-# DESIGN REGISTRY • BLOUSEPOISEJET
+# DESIGN REGISTRY • SCALARREADIVY
 
 ## 1. Aesthetic Identity & Typography
-- **Core Design Ethos:** Haute Couture Poise, Fluid Bias Draping, Parisian Sartorial Cleanliness, Mercer Street SoHo Industrial Warmth.
+- **Core Design Ethos:** Ivy League Academic Gravity, Parchment Vellum Warmth, Scriptorium Focus, SoHo Cast-Iron Architecture.
 - **Typography:**
   - Headings: `Playfair Display`, Georgia, serif (Weight 600, 700)
   - Body / UI: `Plus Jakarta Sans`, -apple-system, sans-serif (Weight 400, 500, 600, 700)
   - Loaded via `<link rel="stylesheet">` tags in `<head>` (0 `@import`).
 
 ## 2. Color Palette
-- **Background:** `#FBF9F7` (Silken Alabaster / Cashmere Ecru)
-- **Surface:** `#FFFFFF` (Pure Atelier White)
-- **Primary / Noir:** `#181716` (Jet Noir / Obsidian Charcoal)
-- **Secondary / Gold:** `#8C7355` (Champagne Gold / Tailor's Ochre)
-- **Accent / Rose:** `#A3485E` (Vintage Rose Velvet / Mulberry)
-- **Border:** `#EAE4DC` (Tuscan Linen Oatmeal)
+- **Background:** `#FBF9F5` (Parchment Ecru / Ivy Alabaster)
+- **Surface:** `#FFFFFF` (Pure Library White)
+- **Primary / Forest:** `#1A2421` (Ivy Academic Forest / Deep Scholar Obsidian)
+- **Secondary / Laurel:** `#2D5A46` (Oxford Laurel Green)
+- **Accent / Ochre:** `#B85D19` (Scholarly Ochre / Scribe Amber)
+- **Border:** `#E3DED4` (Warm Linen Archival Vellum)
 
 ## 3. Institutional Contact Standards (Strict & Permanent)
 - **Address:** 181 Mercer Street, New York, NY 10012, United States

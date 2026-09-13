@@ -1,4 +1,4 @@
-// BlousePoiseJet Interactive Scripts
+// ScalarReadIvy Interactive Scripts
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Header scroll effect
   const header = document.querySelector('.site-header');
@@ -47,81 +47,83 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 4. Interactive Blouse Drape & Silk Momme Tailoring Calculator
-  const silkWeaveSelect = document.getElementById('silk-weave');
-  const mommeRange = document.getElementById('momme-range');
-  const mommeValDisplay = document.getElementById('momme-val');
-  const drapeCoeffOutput = document.getElementById('calc-drape-coeff');
-  const seamRecOutput = document.getElementById('calc-seam');
-  const needleSizeOutput = document.getElementById('calc-needle');
-  const drapeProfileOutput = document.getElementById('calc-profile');
+  // 4. Interactive Cognitive Reading Rate & Conceptual Density Calculator
+  const textGenreSelect = document.getElementById('text-genre');
+  const densityRange = document.getElementById('density-range');
+  const densityValDisplay = document.getElementById('density-val');
+  const wpmOutput = document.getElementById('calc-wpm');
+  const fixationOutput = document.getElementById('calc-fixation');
+  const regressionOutput = document.getElementById('calc-regression');
+  const strategyOutput = document.getElementById('calc-strategy');
 
-  const weaveData = {
-    'crepe-de-chine': {
-      coeffMultiplier: 0.38,
-      seam: '0.6 cm French Seam with 120-weight Silk Thread',
-      needle: 'Microtex Sharp Size 65/9',
-      profile: 'Fluid Columnar Drop with Subtle Textured Pebbled Bounce'
+  const genreData = {
+    'mathematical-proofs': {
+      baseWPM: 140,
+      fixation: '380 - 450 ms per symbolic cluster',
+      regression: '28% - 35% saccadic backward verify',
+      strategy: 'Non-linear recursive verification; diagrammatic mental scratchpad mapping'
     },
-    'georgette-chiffon': {
-      coeffMultiplier: 0.22,
-      seam: '0.4 cm Ultra-Narrow French Rolled Seam',
-      needle: 'Microtex Sharp Size 60/8',
-      profile: 'Weightless Gossamer Wave and Kinetic Anatomical Ripple'
+    'philosophical-treatises': {
+      baseWPM: 210,
+      fixation: '260 - 310 ms per proposition phrase',
+      regression: '18% - 22% syllogism continuity check',
+      strategy: 'Hierarchical dialectic tracking; active marginalia premise tagging'
     },
-    'silk-charmeuse': {
-      coeffMultiplier: 0.45,
-      seam: '0.8 cm Bias French Seam with Stabilized Edge',
-      needle: 'Microtex Sharp Size 70/10',
-      profile: 'Lustrous Liquid Contour with High Surface Reflectance'
+    'peer-reviewed-science': {
+      baseWPM: 280,
+      fixation: '220 - 260 ms per syntactic unit',
+      regression: '12% - 16% quantitative cross-check',
+      strategy: 'Structural triage; methodology evaluation; statistical confidence parsing'
     },
-    'silk-organza': {
-      coeffMultiplier: 0.72,
-      seam: '0.5 cm Enclosed Self-Stitched Flat Seam',
-      needle: 'Microtex Sharp Size 65/9',
-      profile: 'Crisp Architectural Sculptural Volume and Stand'
+    'jurisprudence-case-law': {
+      baseWPM: 240,
+      fixation: '240 - 280 ms per statutory clause',
+      regression: '15% - 20% precedent verification',
+      strategy: 'Doctrinal issue spotting; holding extraction; multi-tier marginal analysis'
     },
-    'habotai-lining': {
-      coeffMultiplier: 0.30,
-      seam: '0.5 cm Plain Seam with Pinked and Pressed Edges',
-      needle: 'Microtex Sharp Size 65/9',
-      profile: 'Featherweight Breathable Second-Skin Silken Glide'
+    'classical-literature': {
+      baseWPM: 380,
+      fixation: '190 - 220 ms rhythmic gaze stride',
+      regression: '5% - 8% aesthetic prosody glance',
+      strategy: 'Sensory sub-vocal modulation; thematic immersion; narrative arc tracking'
     }
   };
 
   function updateCalculator() {
-    if (!silkWeaveSelect || !mommeRange) return;
-    const mommeWeight = parseInt(mommeRange.value, 10);
-    mommeValDisplay.textContent = `${mommeWeight} mm`;
+    if (!textGenreSelect || !densityRange) return;
+    const densityLevel = parseInt(densityRange.value, 10);
+    densityValDisplay.textContent = `Tier ${densityLevel} Index`;
 
-    const selectedWeave = silkWeaveSelect.value;
-    const info = weaveData[selectedWeave] || weaveData['crepe-de-chine'];
+    const selectedGenre = textGenreSelect.value;
+    const info = genreData[selectedGenre] || genreData['peer-reviewed-science'];
 
-    const drapeCoeff = (info.coeffMultiplier * (mommeWeight / 16)).toFixed(2);
+    // Adjust WPM based on density tier (1-5)
+    const factor = 1.0 - (densityLevel - 3) * 0.12;
+    const adjustedWPM = Math.round(info.baseWPM * factor);
 
-    drapeCoeffOutput.textContent = `${drapeCoeff} Drape Modulus`;
-    seamRecOutput.textContent = info.seam;
-    needleSizeOutput.textContent = info.needle;
-    drapeProfileOutput.textContent = info.profile;
+    wpmOutput.textContent = `${adjustedWPM} Words Per Minute`;
+    fixationOutput.textContent = info.fixation;
+    regressionOutput.textContent = info.regression;
+    strategyOutput.textContent = info.strategy;
   }
 
-  if (silkWeaveSelect && mommeRange) {
-    silkWeaveSelect.addEventListener('change', updateCalculator);
-    mommeRange.addEventListener('input', updateCalculator);
+  if (textGenreSelect && densityRange) {
+    textGenreSelect.addEventListener('change', updateCalculator);
+    densityRange.addEventListener('input', updateCalculator);
     updateCalculator();
   }
 
-  // 5. Fitting Consultation Toast Feedback
-  const fitForm = document.getElementById('consultation-form');
-  if (fitForm) {
-    fitForm.addEventListener('submit', (e) => {
+  // 5. Seminar Registration Toast Feedback
+  const semForm = document.getElementById('enrollment-form');
+  if (semForm) {
+    semForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const feedback = document.getElementById('form-feedback');
       if (feedback) {
         feedback.style.display = 'block';
         feedback.className = 'alert alert-success';
-        feedback.innerHTML = '<strong>Consultation Request Received:</strong> Our bespoke salon concierge will contact you within two hours to confirm your private Mercer Street fitting appointment.';
-        fitForm.reset();
+        feedback.innerHTML = '<strong>Diagnostic Consultation Confirmed:</strong> Our academic director will review your reading diagnostic profile and contact you within two hours.';
+        semForm.reset();
       }
     });
   }
